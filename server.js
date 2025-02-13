@@ -2,7 +2,7 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 10000;
 const user = require('./routes/api/user');
 const logger = require('./middleware/logger');
 const path = require('path');
